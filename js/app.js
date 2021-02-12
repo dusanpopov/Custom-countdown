@@ -57,7 +57,6 @@ const updateDOM = () => {
 }
 
 // Take values from input
-
 const updateCountdown = (e) => {
     e.preventDefault();
     countdownTitle = e.srcElement[0].value;
