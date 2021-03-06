@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-html {
+html{
   box-sizing: border-box; 
   font-size: 62.5%;
 }
 
-body {
+body{
   margin: 0;
   min-height: 100vh;
   overflow-y: hidden;
