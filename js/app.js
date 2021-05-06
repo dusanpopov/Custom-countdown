@@ -67,8 +67,8 @@ const updateCountdown = (e) => {
         title: countdownTitle,
         date: countdownDate
     }
+    
     localStorage.setItem("countdown", JSON.stringify(savedCountdown));
-
     // Is date valid
     if(countdownDate === "" || countdownTitle === ""){
         alert("Please enter a valid date or title");
