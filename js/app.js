@@ -52,7 +52,6 @@ const updateDOM = () => {
         completeElement.hidden = true;
         countdownElement.hidden = false;
     }
-
     }, second);
 }
 
